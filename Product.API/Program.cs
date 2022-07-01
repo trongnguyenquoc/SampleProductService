@@ -1,7 +1,3 @@
-using Application;
-using Infrastructure;
-using Product.API.Middlewares;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

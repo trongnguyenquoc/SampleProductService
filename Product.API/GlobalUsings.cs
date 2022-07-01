@@ -1,0 +1,11 @@
+﻿global using Application;
+global using Infrastructure;
+global using Product.API.Middlewares;
+global using Application.Behaviors;
+global using Application.Validation;
+global using System.Net;
+global using System.Text.Json;
+global using Application.Features.Products.Commands.Create;
+global using Application.Features.Products.Queries.GetAll;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;

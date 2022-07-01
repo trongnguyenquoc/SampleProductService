@@ -1,8 +1,4 @@
-﻿using Application.Interfaces;
-using AutoMapper;
-using MediatR;
-
-namespace Application.Features.Products.Queries.GetAll;
+﻿namespace Application.Features.Products.Queries.GetAll;
 
 public class GetAllProductsQuery : IRequest<IEnumerable<GetAllProductsResponseModel>>
 {

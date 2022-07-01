@@ -1,8 +1,4 @@
-﻿using Domain.Entities;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace Infrastructure.Configurations;
+﻿namespace Infrastructure.Configurations;
 
 public class ProductEntityConfiguration : IEntityTypeConfiguration<Product>
 {

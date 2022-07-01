@@ -1,0 +1,11 @@
+﻿global using Application.Features.Products.Commands.Create;
+global using Application.Features.Products.Queries.GetAll;
+global using Application.Interfaces;
+global using Application.Validation;
+global using AutoMapper;
+global using Domain.Entities;
+global using FluentValidation;
+global using FluentValidation.Results;
+global using MediatR;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Reflection;

@@ -1,10 +1,4 @@
-﻿using Application.Interfaces;
-using Infrastructure.Context;
-using Infrastructure.Repositories;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace Infrastructure;
+﻿namespace Infrastructure;
 
 public static class ServiceExtensions
 {

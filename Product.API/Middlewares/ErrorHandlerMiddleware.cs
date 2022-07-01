@@ -1,9 +1,4 @@
-﻿using Application.Behaviors;
-using Application.Validation;
-using System.Net;
-using System.Text.Json;
-
-namespace Product.API.Middlewares
+﻿namespace Product.API.Middlewares
 {
     public class ErrorHandlerMiddleware
     {

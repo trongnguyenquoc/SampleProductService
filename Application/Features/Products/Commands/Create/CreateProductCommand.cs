@@ -1,9 +1,4 @@
-﻿using Application.Interfaces;
-using AutoMapper;
-using Domain.Entities;
-using MediatR;
-
-namespace Application.Features.Products.Commands.Create;
+﻿namespace Application.Features.Products.Commands.Create;
 
 public class CreateProductCommand : IRequest<Guid>
 {

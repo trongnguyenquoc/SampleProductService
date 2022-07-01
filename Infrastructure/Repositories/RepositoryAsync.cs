@@ -1,8 +1,4 @@
-﻿using Application.Interfaces;
-using Infrastructure.Context;
-using Microsoft.EntityFrameworkCore;
-
-namespace Infrastructure.Repositories;
+﻿namespace Infrastructure.Repositories;
 
 public class RepositoryAsync<T> : IRepositoryAsync<T> where T : class
 {

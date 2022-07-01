@@ -1,0 +1,10 @@
+﻿global using Application.Features.Products.Commands.Create;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using Moq;
+global using Product.API.Controllers;
+global using Application.Features.Products.Queries.GetAll;
+global using Application.Interfaces;
+global using AutoMapper;
+global using Moq;
+global using Xunit;
